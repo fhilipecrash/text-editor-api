@@ -4,6 +4,12 @@
 
 This application is made with the intention of studying the use of Django to create a Rest API
 
+#### Environment
+Copy .env.example and put your django secret key in the .env file
+```
+cp .env.example .env
+```
+
 #### Usage
 
 ```
