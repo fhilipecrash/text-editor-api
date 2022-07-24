@@ -8,6 +8,12 @@ This application is made with the intention of studying the use of Django to cre
 Copy .env.example and put your django secret key in the .env file
 ```
 cp .env.example .env
+pipenv run keygen
+```
+
+In .env
+```
+DJANGO_SECRET_KEY=django-insecure-<your django secret key>
 ```
 
 #### Usage
