@@ -11,9 +11,10 @@ cp .env.example .env
 ```
 
 #### Usage
-
+Setup the database and run the server
 ```
 pipenv shell
 pipenv install
+python manage.py migrate
 python manage.py runserver
 ```
